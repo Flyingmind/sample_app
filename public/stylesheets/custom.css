@@ -8,11 +8,13 @@ body {
 
 header {
 	padding-top: 20px;
+	padding-bottom: 90px;
 }
 
 header img {
 	padding: 1em;
 	background: #fff;
+	float: left;
 }
 
 section {
@@ -43,30 +45,35 @@ a:visited {
 }
 
 /* navigation */
-
+/*
 nav {
 	float: right;
 }
-
+*/
 nav {
+	float: right;
 	background-color: white;
-	padding: 0 0.7em;
+	/*padding: 0 0.7em;*/
 	white-space: nowrap;
 }
 
 nav ul {
 	margin: 0;
 	padding: 0;
+	list-style-type: none;
 }
 
 nav ul li {
-	list-style-type: none:
+	/*list-style-type: none:*/
 	display: inline-block;
 	padding: 0.2em 0;
+	/*padding-right: 10px;*/
+	width: auto;
+	float: left;
 }
 
 nav ul li a {
-	padding: 0 5px;
+	padding: 0 20px;
 	font-weight: bold;
 }
 
@@ -101,3 +108,20 @@ a.signup_button {
 	-webkit-border-radius: 	10px;
 	border-radius: 					10px;
 }
+
+
+footer {
+	/*text-align: center;*/
+	margin-top: 10px;
+	margin-left: -220px;
+	width: 750px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+/*
+footer nav {
+	float: none;
+}
+*/
+
